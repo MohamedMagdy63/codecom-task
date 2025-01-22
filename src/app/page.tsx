@@ -20,7 +20,7 @@ export default function Home() {
       <div className="flex flex-col items-center min-h-screen p-4 sm:p-6 md:p-12 lg:p-16 gap-6 sm:gap-8 lg:gap-10 text-gray-800">
         {/* Header */}
         <header className="text-center px-4 sm:px-6 md:px-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-blue-600 mb-2">Posts Pagination Task</h1>
+          <h1 className="text-3xl sm:text-2xl md:text-5xl font-extrabold text-blue-600 mb-2">Posts Pagination Task</h1>
           <p className="text-md sm:text-lg md:text-xl text-gray-600">Provided to Codecom Company</p>
         </header>
 
