@@ -1,0 +1,15 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs';
+import { fetchTotalPosts, fetchPaginationPosts } from '../../lib/fetchPosts'; // Adjust the path
+
+<Meta title="Utilities/FetchPosts" />
+
+# FetchPosts Utilities
+
+<Preview>
+  <Story name="Fetch Total Posts">
+    {() => <div>{fetchTotalPosts().toString()}</div>}
+  </Story>
+  <Story name="Fetch Pagination Posts">
+    {() => <div>{fetchPaginationPosts().toString()}</div>}
+  </Story>
+</Preview>
