@@ -1,0 +1,21 @@
+.responsive-card {
+  height: 100%; /* Ensure card takes full height of the list item */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.responsive-card p {
+  flex-grow: 1; /* Allow the text to take up available space */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  white-space: pre-wrap; /* Maintain white spaces */
+  word-wrap: break-word; /* Wrap the text onto next line */
+  margin: 0; /* Remove additional margins */
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-card {
+    min-height: 250px; /* Increase the minimum height for small screens */
+  }
+}

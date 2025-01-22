@@ -7,7 +7,6 @@ interface PaginationComponentProps extends PaginationProps {
   total: number;
   onChange: (page: number, pageSize: number) => void;
 }
-
 const PaginationComponent = ({ current, pageSize, total, onChange }: PaginationComponentProps) => {
   return (
     <div className="flex justify-center mt-6">
