@@ -1,5 +1,6 @@
 // src/components/Pagination.tsx
 import { Pagination, PaginationProps } from 'antd';
+import '../assets/styles/Pagination.css'; 
 
 interface PaginationComponentProps extends PaginationProps {
   current: number;

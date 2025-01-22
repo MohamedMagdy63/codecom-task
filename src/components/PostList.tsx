@@ -1,6 +1,6 @@
 import { List, Card } from 'antd';
 import { FC } from 'react';
-import '../assets/styles/PostsList.css'; // Import the CSS file
+import '../assets/styles/PostsList.css'; 
 
 interface Post {
   title: string;
