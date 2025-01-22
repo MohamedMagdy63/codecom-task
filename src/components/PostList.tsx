@@ -1,5 +1,6 @@
 import { List, Card } from 'antd';
 import { FC } from 'react';
+import 'tailwindcss/tailwind.css'; 
 
 interface Post {
   title: string;
@@ -17,7 +18,7 @@ const PostsList: FC<PostsListProps> = ({ posts }) => {
       dataSource={posts}
       renderItem={post => (
         <List.Item>
-          <Card title={post.title} className="flex flex-col p-4 h-auto min-h-full shadow-md border border-gray-300">
+          <Card title={<span className="whitespace-normal break-words">{post.title}</span>} className="flex flex-col p-4 h-auto min-h-full shadow-md border border-gray-300">
             <p className="text-gray-700 text-sm md:text-base break-words">{post.body}</p>
           </Card>
         </List.Item>
