@@ -2,6 +2,10 @@
 
 This is a pagination implementation task for Codecom, built with [Next.js](https://nextjs.org) and bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Important Notes 
+   - The deplyment link [Vercel app](https://codecom-task.vercel.app/)
+   - I tried to use StoryBook But I still learning it so I removed it until I can use it probably
+
 ## Getting Started
 
 First, run the development server:
